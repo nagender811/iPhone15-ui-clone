@@ -9,7 +9,7 @@ const Features = () => {
   useGSAP(() => {
     gsap.to("#exploreVideo", {
       scrollTrigger: {
-        trigger: '#exploreVideo',
+        trigger: "#exploreVideo",
         toggleActions: "play pause reverse restart",
         start: "-10% bottom",
       },
@@ -100,9 +100,9 @@ const Features = () => {
                     Titanium has one of the best strength-to-weight ratios of
                     any metal, making these our{" "}
                     <span className="text-white">
-                      lightest Pro models ever.
+                      lightest Pro models ever.{" "}
                     </span>
-                    , You'll notice the difference the moment you pick one up.
+                     You'll notice the difference the moment you pick one up.
                   </p>
                 </div>
               </div>
